@@ -1,0 +1,28 @@
+.contact-footer {
+    background-color: gray;
+    padding: 24px;
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    padding: 8px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

@@ -1,0 +1,93 @@
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    margin: 0 1em;
+    margin-left: 40px;
+  }
+
+
+.header {
+    background-image: url('D:\\react-portfolio\\my-portfolio\\public\\header-image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Change the opacity to adjust darkness */
+  }
+  
+  .header > * {
+    position: relative;
+    z-index: 1;
+  }
+
+h1 p {
+    margin-left: 40px;
+}
+
+a:hover {
+    color: purple;
+}
+
+body {
+    min-width: 400px;
+    min-height: 847;
+}
+
+
+/* Default styles */
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Media query for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query for screens smaller than 480px */
+  @media (max-width: 480px) {
+    .container {
+      padding: 70px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  
