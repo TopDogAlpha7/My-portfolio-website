@@ -45,7 +45,7 @@ a:hover {
   /* Media query for screens smaller than 480px */
   @media (max-width: 480px) {
     .container {
-      padding: 70px;
+      padding: 5px;
     }
     h2 {
       font-size: 24px;
