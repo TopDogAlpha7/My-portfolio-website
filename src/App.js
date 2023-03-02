@@ -28,7 +28,7 @@ const App = () => {
           </ul>
           <br></br>
           <br></br>
-          <img src='languages.jpg' className='languages-image' alt='new photot'></img>
+          <img src='https://i.pinimg.com/originals/ff/8e/17/ff8e17fb79bb973189be6d315e9fb4a9.png' className='languages-image' alt='new photot' />
           <br></br>
           <br></br>
           <br></br>
